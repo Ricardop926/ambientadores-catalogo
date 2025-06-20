@@ -13,9 +13,11 @@ function App() {
   const [tiposDisponibles, setTiposDisponibles] = useState([]);
   
   const resumenRef = useRef(null);
+  // .env base de datos 
+  const sheetUrl = import.meta.env.VITE_SHEETDB_URL;
 
   useEffect(() => {
-    fetch("https://sheetdb.io/api/v1/7gg82j75efztc")
+    fetch(sheetUrl)
       .then((res) => res.json())
       .then((data) => {
         console.log("🟢 Datos recibidos:", data);
