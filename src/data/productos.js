@@ -6,7 +6,6 @@ export const productos = [
     nombre: "Frutos Rojos",
     tipo: "Auto",
     aroma: "frutos rojos",
-    precio: 123,
     imagen: "/ambientadores/lavanda.jpg"
   },
   {
@@ -14,7 +13,6 @@ export const productos = [
     nombre: "Vainilla",
     tipo: "Auto",
     aroma: "vainilla",
-    precio: 123,
     imagen: "/ambientadores/vainilla.jpg"
   },
   {
@@ -22,7 +20,6 @@ export const productos = [
     nombre: "Citrus",
     tipo: "Auto",
     aroma: "citrus",
-    precio: 123,
     imagen: "/ambientadores/citrico.jpg"
   },
    {
@@ -30,7 +27,6 @@ export const productos = [
     nombre: "Berry Tentacion",
     tipo: "hogar",
     aroma: "berry",
-    precio: 123,
     imagen: "/ambientadores/citrico.jpg"
   }
   
