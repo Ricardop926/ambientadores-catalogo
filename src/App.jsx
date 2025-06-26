@@ -247,7 +247,7 @@ function App() {
                 ¿Te gustó nuestro catálogo? 
               </p>
               <a
-                href="https://instagram.com/npstore_oficial" // Cambia por tu Instagram real
+                href="https://www.instagram.com/npstoreir?igsh=NHdndXZnZmM4NXc0" // Cambia por tu Instagram real
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-4 py-2 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md text-sm"
