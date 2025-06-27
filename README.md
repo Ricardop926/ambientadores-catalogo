@@ -1,12 +1,41 @@
-# React + Vite
+# 🌟 Catálogo de Aromas LightGel - NPstore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido al catálogo digital de ambientadores **LightGel** de **NPstore**!  
+Explora los aromas disponibles, elige el tipo y la cantidad, y realiza tu pedido fácilmente por WhatsApp.  
+El proyecto está optimizado, desplegado y listo para ser usado desde cualquier dispositivo.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo en vivo
 
-## Expanding the ESLint configuration
+👉 [Ver catálogo en línea](https://ambientadores-catalogo.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Stack tecnológico
+
+Tecnologías utilizadas para construir y desplegar este proyecto:
+
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,vercel,js,html,css" />
+</div>
+
+---
+
+## 📦 Funcionalidades principales
+
+- ✅ Catálogo dinámico cargado desde una base de datos en [SheetDB.io](https://sheetdb.io)
+- 🔍 Filtros por tipo y aroma
+- 📦 Almacenamiento de productos seleccionados
+- 🛒 Generación automática del resumen del pedido
+- 📲 Envío directo del pedido a WhatsApp
+- 📱 Diseño responsive con TailwindCSS
+
+---
+
+## 🧠 ¿Cómo se conecta la base de datos?
+
+El catálogo consume una API REST expuesta por **SheetDB.io**, que está protegida mediante variables de entorno:
+
+```env
+VITE_SHEETDB_URL=https://sheetdb.io/api/v1/xxxxxxxxxxxxxxxxxxxxx
